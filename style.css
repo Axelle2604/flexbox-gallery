@@ -1,7 +1,3 @@
-@import{
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
-}
-
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -16,13 +12,17 @@ body {
   font-weight: lighter;
 }
 
-.container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-items: center;
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
 }
 
-img{
-    flex: 1 0 250px;
-    margin : 10px;
+img {
+  width: 100%;
+}
+
+.container_img {
+  flex: 1 0 250px;
+  margin: 10px;
 }
