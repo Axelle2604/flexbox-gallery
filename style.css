@@ -1,0 +1,28 @@
+@import{
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.splash-gallery {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+}
+
+img{
+    flex: 1 0 250px;
+    margin : 10px;
+}
